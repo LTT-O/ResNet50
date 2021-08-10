@@ -1,3 +1,4 @@
 # ResNet50
 CUB200数据集下载地址：
-数据集已分好train和test文件，可直接以Data
+数据集已分好train和test文件，可直接调用datasets.ImageFolder函数导入数据
+修改config中的路径为对应数据集路径即可运行train函数
